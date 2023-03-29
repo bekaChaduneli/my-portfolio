@@ -7,10 +7,6 @@ import {
   MenuButton,
   MenuList,
   MenuItem,
-  MenuItemOption,
-  MenuGroup,
-  MenuOptionGroup,
-  MenuDivider,
   Tab,
   TabIndicator,
   TabList,
@@ -20,6 +16,7 @@ import {
   Text,
 } from "@chakra-ui/react";
 import { useState } from "react";
+import monitor from "../../public/assets/monitor.png";
 import { Link } from "react-router-dom";
 
 export default function Skills(props: any) {
@@ -75,7 +72,7 @@ export default function Skills(props: any) {
                       <Image
                         zIndex={"10"}
                         position="absolute"
-                        src="../../public/assets/monitor.png"
+                        src={monitor}
                         w={"330px"}
                       />
                       <Image
