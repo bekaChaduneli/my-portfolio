@@ -7,10 +7,12 @@ import {
   DrawerHeader,
   DrawerOverlay,
   Flex,
+  Image,
   Text,
   useDisclosure,
 } from "@chakra-ui/react";
 import { Link, Outlet } from "react-router-dom";
+import avatarImage from "../../public/assets/mobileAvatar.png";
 import Footer from "../components/Footer";
 import MainLogo from "../components/MainLogo";
 
@@ -36,9 +38,17 @@ export default function Roots() {
           h={"40px"}
           w="260px"
         >
-          <Box w={{ sm: "39px", md: "45px", xl: "50px" }}>
+          <Box
+            display={{ sm: "none", md: "block" }}
+            w={{ sm: "39px", md: "45px", xl: "50px" }}
+          >
             <MainLogo />
           </Box>
+          <Image
+            w="30px"
+            display={{ sm: "block", md: "none" }}
+            src={avatarImage}
+          />
           <Text
             fontSize={{ sm: "12px", md: "17px", xl: "24px" }}
             fontWeight={"900"}

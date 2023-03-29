@@ -1,8 +1,9 @@
-import { Box, Button, Flex, Text } from "@chakra-ui/react";
+import { Box, Button, Flex, Image, Text } from "@chakra-ui/react";
 import { useEffect, useState, useRef } from "react";
 import { Link } from "react-router-dom";
 import MainLogo from "./MainLogo";
 import { init } from "ityped";
+import avatarLogo from "../../public/assets/mobileAvatar.png";
 import cv from "../../public/resume.pdf";
 export default function Header(props: any) {
   const firstRender = useRef(true);
@@ -120,22 +121,30 @@ export default function Header(props: any) {
               mt={{ sm: "65px", md: "55px", lg: "100px", xl: "20px" }}
               gap={{ sm: "32px", md: "48px", xl: "64px" }}
             >
-              <a href={cv}>
-                <Button
-                  colorScheme="none"
-                  variant="solid"
-                  w={"100%"}
-                  h={{ sm: "50px", md: "55px", lg: "70px", xl: "50px" }}
-                  border={"4px"}
-                  borderRadius={{ sm: "6px", md: "10px", xl: "16px" }}
-                  fontSize={{ sm: "12px", md: "16px", lg: "24px", xl: "19px" }}
-                  bg="brand.300"
-                >
-                  <Text fontWeight={"900"} mt={"5px"}>
-                    DOWNLOAD CV
-                  </Text>
-                </Button>
-              </a>
+              <Box w={"100%"}>
+                <a href={cv}>
+                  <Button
+                    colorScheme="none"
+                    variant="solid"
+                    w={"100%"}
+                    h={{ sm: "50px", md: "55px", lg: "70px", xl: "50px" }}
+                    border={"4px"}
+                    borderRadius={{ sm: "6px", md: "10px", xl: "16px" }}
+                    fontSize={{
+                      sm: "12px",
+                      md: "16px",
+                      lg: "24px",
+                      xl: "19px",
+                    }}
+                    bg="brand.300"
+                  >
+                    <Text fontWeight={"900"} mt={"5px"}>
+                      DOWNLOAD CV
+                    </Text>
+                  </Button>
+                </a>
+              </Box>
+
               <Box w={"100%"}>
                 <Link to="about">
                   <Button
@@ -166,6 +175,7 @@ export default function Header(props: any) {
 
         <Box
           order={{ sm: "1", md: "2" }}
+          display={{ sm: "none", md: "block" }}
           mr={{ sm: "0px", lg: "50px", xl: "0px" }}
           width={{ sm: "130px", lg: "350px", xl: "1000px" }}
           mt={{ sm: "30px", md: "0" }}
@@ -174,6 +184,12 @@ export default function Header(props: any) {
         >
           <MainLogo />
         </Box>
+        <Image
+          display={{ sm: "block", md: "none" }}
+          w="110px"
+          mt="70px"
+          src={avatarLogo}
+        />
       </Flex>
     </Flex>
   );
