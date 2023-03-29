@@ -1,0 +1,517 @@
+{
+      "personal" : {
+          "name": "beka",
+          "lasname": "chaduneli",
+          "age": 19,
+          "address": "Tbilisi, Georgia",
+          "phone": "(+995) 571 11 85 60",
+          "bithday": "20 November",
+          "bithdate": "2003.11.20",
+          "noprogrammingstack": {
+            "photoshop": "Adobe Photoshop",
+            "videomontage": {
+                "sonyvegas": "Sony Vegas",
+                "filmora": "Filmora"
+            }
+          },
+          "position": "Full-Stack Developer",
+          "languages": {
+            "english": "Conversant",
+            "georgian": "Native"
+          },
+          "linkedin": "https://www.linkedin.com/in/beka-chaduneli-28203422b/",
+          "github": "https://github.com/bekaChaduneli",
+          "facebook": "https://www.facebook.com/chadunelibb/",
+          "instagram": "https://www.instagram.com/bekachaduneli/",
+          "mail": "beka.chaduneli.1@btu.edu.ge"
+      },
+
+      "questions": [
+        {
+            "name": "Tell me about you",
+            "answer": "Hello, I’m a full-stack web developer. I used eloquent javascript to teach myself fundamentals of web technologies - creating markup, manipulating DOM, and building web apps using modern javascript. After working on about 10-15 projects using Vanilla JavaScript, I learned how to use React to Build more ambitious and scalable web applications. Nowadays I’m learning advanced React, NodeJS, and Databases. I am very motivated to learn many new things in technologies, for example, Three.js, Prisma, React Native, Next.js, Python, C, and many others. I devote all my time to programming and building projects"
+        },
+        {
+            "name": "Do you have work experience?",
+            "answer": "I have no work experience, but I am in the process of searching, if you have any suggestions, write to me on the following email - beka.chaduneli.1@btu.edu.ge"
+        },
+        {
+            "name": "Tell me something about your education",
+            "answer": "In 2021, I entered the Faculty of Management at the University of Business and Technology, but I soon realized that I made a mistake and a year later I moved to the Faculty of Information Technology, where I am still studying today. During this time, I passed such subjects as Python, Oracle, Information security, and Principles of digital technologies. Also, on December 20, 2022, I started learning web development at Bitcamp. It's a Georgian super-intensive Bootcamp, where I study full-stack development, and I also took the react 101 course and covered React at an advanced level. In addition to all this, Bitcamp taught me how to develop on my own independently"
+        },
+        {
+            "name": "What is bitcamp",
+            "answer": "BitCamp is a platform for people interested in learning and teaching programming and web technologies. On this platform, aspiring developers test learning and gaining experience, using developers who have guided them along the way"
+        },
+        {
+            "name": "",
+            "answer": ""
+        }
+
+      ],
+
+      "projects": [
+          {
+              "name": "Entertaiment app",
+              "best": true,
+              "display": false,
+              "date": " Mar",
+              "image": "../../public/assets/entertaiment-web-app.png",
+              "tools": ["../../public/assets/react.png", "../../public/assets/typescript.png", "../../public/assets/styledcomponents.png"],
+              "github": "https://github.com/bekaChaduneli/entertaiment-web-app",
+              "live": "https://entertaiment-web-app-nu.vercel.app/",
+              "about": "The main goal of this project was to get experience working with large files, building the site using the received information, and I also got to work with react components like Splide"
+          },
+          {
+              "name": "Planet facts",
+              "best": true,
+              "display": false,
+              "date": " Mar",
+              "image": "../../public/assets/planet-facts.png",
+              "tools": ["../../public/assets/react.png", "../../public/assets/typescript.png", "../../public/assets/styledcomponents.png"],
+              "github": "https://github.com/bekaChaduneli/planet-facts-react",
+              "live": "https://planet-facts-reacts.vercel.app/",
+              "about": "The main goal of this project was to gain experience working with React routers and Vite"
+          },
+          {
+              "name": "3D Portfolio",
+              "best": true,
+              "display": false,
+              "date": " Mar",
+              "image": "../../public/assets/3d-portfolio.png",
+              "tools": ["../../public/assets/threejs.png", "../../public/assets/react.png", "../../public/assets/typescript.png", "../../public/assets/styledcomponents.png"],
+              "github": "https://github.com/bekaChaduneli/3d-portfolio",
+              "live": "https://3d-portfolio-liard.vercel.app/",
+              "about": "The main goal of the project was to get experience working with three.js"
+          },
+          {
+              "name": "Clock app",
+              "best": true,
+              "display": false,
+              "date": " Mar",
+              "image": "../../public/assets/clock-app.png",
+              "tools": [ "../../public/assets/react.png", "../../public/assets/typescript.png", "../../public/assets/chakraui.png"],
+              "github": "https://github.com/bekaChaduneli/clock-app-react",
+              "live": "https://clock-app-react-z4tq.vercel.app/",
+              "about": "The main goal of this project was to gain experience working with API, Typescript and Chakra UI"
+          },
+          {
+              "name": "Github user search",
+              "best": true,
+              "display": false,
+              "date": " Mar",
+              "image": "../../public/assets/github-users-search-app.png",
+              "tools": [ "../../public/assets/react.png", "../../public/assets/styledcomponents.png"],
+              "github": "https://github.com/bekaChaduneli/github-user-search-app-REACT",
+              "live": "https://github-user-search-app-react.vercel.app/",
+              "about": "This is my forth React app. The main goal of this project was to fetch the GitHub API with Axios and include the API information in HTML with React and Styled components"
+          },
+          {
+              "name": "Ecommerce product",
+              "best": true,
+              "display": false,
+              "date": " Feb",
+              "image": "../../public/assets/ecommerce-product-page.png",
+              "tools": [ "../../public/assets/javascript.png", "../../public/assets/css.png", "../../public/assets/html.png"],
+              "github": "https://github.com/bekaChaduneli/ecommerce-product-page",
+              "live": "https://bekachaduneli.github.io/ecommerce-product-page/",
+              "about": "The main goal of this project was to create a box with a document object model where many product images could be viewed"
+          },
+          {
+              "name": "Metaversus app",
+              "best": true,
+              "display": false,
+              "date": " Mar",
+              "image": "../../public/assets/metaversus-app.png",
+              "tools": [ "../../public/assets/react.png", "../../public/assets/tailwind.png", "../../public/assets/framermotion.png"],
+              "github": "https://github.com/bekaChaduneli/metaversus-app",
+              "about": "The main goal of the project was to get experience working with framer motion"
+          },
+          {
+              "name": "Interactive card details",
+              "best": false,
+              "display": false,
+              "date": " Mar",
+              "image": "../../public/assets/interactive-card-details.png",
+              "tools": [ "../../public/assets/react.png", "../../public/assets/typescript.png", "../../public/assets/chakraui.png"],
+              "github": "https://github.com/bekaChaduneli/interactive-card-details-REACT",
+              "about": "The main goal of this project was to get experience working with Typescript and Chakra UI"
+          },
+          {
+              "name": "Interactive comment section",
+              "best": false,
+              "display": false,
+              "date": " Feb",
+              "image": "../../public/assets/interactive-comments-section.png",
+              "tools": [ "../../public/assets/javascript.png", "../../public/assets/css.png", "../../public/assets/html.png"],
+              "github": "https://github.com/bekaChaduneli/interactive-comment-section",
+              "live": "https://bekachaduneli.github.io/interactive-comment-section/",
+              "about": " The main goal of this project was to create HTML elements with javascript and manipulate of them"
+          },
+          {
+              "name": "Todo UI",
+              "best": false,
+              "date": " Mar",
+              "image": "../../public/assets/todo-ui.png",
+              "tools": [ "../../public/assets/react.png", "../../public/assets/tailwind.png"],
+              "github": "https://github.com/bekaChaduneli/Todo-UI-REACT",
+              "live": "https://todo-ui-1b33c.web.app/",
+              "about": "The main goal of this project was to manipulate the information received from the User in React"
+          },
+          {
+            "name": "Github user search app",
+            "best": false,
+            "date": " Feb",
+            "image": "../../public/assets/github-users-search-app.png",
+            "tools": [ "../../public/assets/javascript.png", "../../public/assets/css.png", "../../public/assets/html.png"],
+            "github": "https://github.com/bekaChaduneli/github-user-search-app",
+            "live": "https://bekachaduneli.github.io/github-user-search-app/",
+            "about": "The main goal of this project was to fetch the GitHub API and include the API information in HTML"
+        },
+          {
+            "name": "Tic Tac Toe",
+            "best": false,
+            "date": " Feb",
+            "image": "../../public/assets/tic-tac-toe.png",
+            "tools": [ "../../public/assets/javascript.png", "../../public/assets/css.png", "../../public/assets/html.png"],
+            "github": "https://github.com/bekaChaduneli/tic-tac-toe",
+            "live": "https://bekachaduneli.github.io/tic-tac-toe/",
+            "about": " The main goal of this project was to work with a relatively large script."
+        },
+          {
+              "name": "Tip calculator app React",
+              "best": false,
+              "date": " Mar",
+              "image": "../../public/assets/tip-calculator.png",
+              "tools": [ "../../public/assets/react.png", "../../public/assets/tailwind.png"],
+              "github": "https://github.com/bekaChaduneli/tip-calculator-app-REACT",
+              "live": "https://tip-calculator-app-react.web.app/",
+              "about": "The main goal of the project was to get experience working with use state in React"
+          },
+          {
+              "name": "Todo app",
+              "best": false,
+              "date": " Feb",
+              "image": "../../public/assets/todo-app.png",
+              "tools": [ "../../public/assets/javascript.png", "../../public/assets/css.png", "../../public/assets/html.png"],
+              "github": "https://github.com/bekaChaduneli/todo-app",
+              "live": "https://bekachaduneli.github.io/todo-app/",
+              "about": "The main goal of this project was to manipulate the information received from the User"
+          },
+        {
+            "name": "Tip calculator app",
+            "best": false,
+            "date": " Jan",
+            "image": "../../public/assets/tip-calculator.png",
+            "tools": [ "../../public/assets/javascript.png", "../../public/assets/css.png", "../../public/assets/html.png"],
+            "github": "https://github.com/bekaChaduneli/tip-calculator-app",
+            "live": "https://bekachaduneli.github.io/tip-calculator-app/",
+            "about": "The main goal of this project was to use the Document object model"
+        },
+        {
+            "name": "Interactive rating component",
+            "best": false,
+            "date": " Feb",
+            "image": "../../public/assets/interactive-rating-component.png",
+            "tools": [ "../../public/assets/react.png", "../../public/assets/tailwind.png"],
+            "github": "https://github.com/bekaChaduneli/interactive-rating-component",
+            "live": "https://interactive-rating-component-amber-two.vercel.app/",
+            "about": "The main goal of this project was to get experience working with React and Tailwind CSS"
+        },
+        {
+            "name": "Sass project",
+            "best": false,
+            "date": " Feb",
+            "image": "../../public/assets/scss-project.png",
+            "tools": [ "../../public/assets/javascript.png", "../../public/assets/css.png", "../../public/assets/html.png"],
+            "github": "https://github.com/bekaChaduneli/scss-project",
+            "live": "https://bekachaduneli.github.io/Sass-project/",
+            "about": "The main goal of this project was to create a project with css pre-processor (Sass)"
+        },
+        {
+            "name": "launch countdown timerlaunch",
+            "best": false,
+            "date": " Feb",
+            "image": "../../public/assets/launch-countdown-app.png",
+            "tools": [ "../../public/assets/javascript.png", "../../public/assets/css.png", "../../public/assets/html.png"],
+            "github": "https://github.com/bekaChaduneli/launch-countdown-timer",
+            "live": "https://bekachaduneli.github.io/launch-countdown-timer/",
+            "about": "The main goal of this project was to work with the set interval method"
+        },
+        {
+            "name": "Single page design portfolio",
+            "best": false,
+            "date": " Feb",
+            "image": "../../public/assets/single-page-portfolio.png",
+            "tools": [ "../../public/assets/javascript.png", "../../public/assets/css.png", "../../public/assets/html.png"],
+            "github": "https://github.com/bekaChaduneli/single-page-design-portfolio",
+            "live": "https://bekachaduneli.github.io/single-page-design-portfolio/",
+            "about": "The main goal of this project was to make my works Container"
+        },
+        {
+            "name": "Faq accordion card",
+            "best": false,
+            "date": " Jan",
+            "image": "../../public/assets/faq-accordion-card.png",
+            "tools": [ "../../public/assets/javascript.png", "../../public/assets/css.png", "../../public/assets/html.png"],
+            "github": "https://github.com/bekaChaduneli/faq-accordion-card",
+            "live": "https://bekachaduneli.github.io/faq-accordion-card/",
+            "about": "The main goal of this project was to create collapsible Content"
+        },
+        {
+            "name": "Interactive pricing component",
+            "best": false,
+            "date": " Jan",
+            "image": "../../public/assets/rating-component.png",
+            "tools": [ "../../public/assets/css.png", "../../public/assets/html.png"],
+            "github": "https://github.com/bekaChaduneli/interactive-pricing-component",
+            "live": "https://bekachaduneli.github.io/interactive-pricing-component/",
+            "about": "The main goal of this project was to work with Html Forms"
+        },
+        {
+            "name": "Fylo landing pageFylo",
+            "best": false,
+            "date": " Jan",
+            "image": "../../public/assets/fylo-landing-page.png",
+            "tools": [ "../../public/assets/css.png", "../../public/assets/html.png"],
+            "github": "https://github.com/bekaChaduneli/fylo-landing-page-with-two-column-layout-master",
+            "live": "https://bekachaduneli.github.io/fylo-landing-page-with-two-column-layout-master/",
+            "about": "The main goal of this project was to create an email input Element"
+        },
+        {
+            "name": "Typemaster pre launch landing page",
+            "best": false,
+            "date": " Jan",
+            "image": "../../public/assets/typemaster.png",
+            "tools": [ "../../public/assets/css.png", "../../public/assets/html.png"],
+            "github": "https://github.com/bekaChaduneli/typemaster-pre-launch-landing-page",
+            "live": "https://bekachaduneli.github.io/typemaster-pre-launch-landing-page/",
+            "about": "The main goal of this project was to use the CSS Grid"
+        },
+        {
+            "name": "four card feature section master",
+            "best": false,
+            "date": " Jan",
+            "image": "../../public/assets/four-card.png",
+            "tools": [ "../../public/assets/css.png", "../../public/assets/html.png"],
+            "github": "https://github.com/bekaChaduneli/four-card-feature-section-master",
+            "live": "https://bekachaduneli.github.io/four-card-feature-section-master/",
+            "about": "The main goal of this project was to give the exact positions of the containers"
+        },
+        {
+            "name": "Art gallery website",
+            "best": false,
+            "date": " Jan",
+            "image": "../../public/assets/art-gallery.png",
+            "tools": [ "../../public/assets/css.png", "../../public/assets/html.png"],
+            "github": "https://github.com/bekaChaduneli/art-gallery-website",
+            "live": "https://bekachaduneli.github.io/art-gallery-website/",
+            "about": "The main goal of this project was to create two different pages and link them Together"
+        },
+        {
+            "name": "Equalizer landing page",
+            "best": false,
+            "date": " Jan",
+            "image": "../../public/assets/equlaizer-landing-page.png",
+            "tools": [ "../../public/assets/css.png", "../../public/assets/html.png"],
+            "github": "https://github.com/bekaChaduneli/equalizer-landing-page",
+            "live": "https://bekachaduneli.github.io/equalizer-landing-page/",
+            "about": "The main goal of this project was to create several boxes in one container that would be partially outside the container"
+        },
+        {
+            "name": "Skilled elearning landing page",
+            "best": false,
+            "date": " Jan",
+            "image": "../../public/assets/skilled-elearning-app.png",
+            "tools": [ "../../public/assets/css.png", "../../public/assets/html.png"],
+            "github": "https://github.com/bekaChaduneli/skilled-elearning-landing-page",
+            "live": "https://encouraging-catnip-washer.glitch.me/",
+            "about": "The main goal of this project was to create a responsive design. You can see both the live link and the repository"
+        },
+        {
+            "name": "CodeHS funny final project",
+            "best": false,
+            "date": " Dec",
+            "image": "../../public/assets/codehs-final.png",
+            "tools": [ "../../public/assets/codehs.png"],
+            "live": "https://codehs.com/share/id/write-the-code-gLvrFR/run",
+            "about": "CodeHS (Introducing to javascript) final project where I created a football game with two characters: Jotia Tsaava and Harry Maguire"
+        }
+      ],
+      
+      "skills": [
+        
+            {
+                "name": "React",
+                "main": true,
+                "startlearningdate": "20 February",
+                "icon": "../../public/assets/react.png",
+                "tip": "Javascript framework",
+                "projectsnumber": 11,
+                "about": ""
+            },
+             {
+                "name": "Typescript",
+                "main": true,
+                "startlearningdate": "March",
+                "icon": "../../public/assets/typescript.png",
+                "tip": "Javascript superset",
+                "projectsnumber": 6,
+                "about": ""
+            },
+            {
+                "name": "NodeJS",
+                "main": true,
+                "icon": "../../public/assets/node.png",
+                "startlearningdate": "February",
+                "tip": "Javascript backend framework",
+                "projectsnumber": 0,
+                "about": ""
+            },
+            {
+                "name": "ThreeJS",
+                "main": true,
+                "icon": "../../public/assets/threejs.png",
+                "startlearningdate": "21 March",
+                "tip": "JavaScript framework",
+                "projectsnumber": 1,
+                "about": ""
+            },
+             {
+                "name": "Javascript",
+                "main": true,
+                "startlearningdate": "January",
+                "icon": "../../public/assets/javascript.png",
+                "tip": "Programming language",
+                "projectsnumber": 13,
+                "about": ""
+            },
+            {
+                "name": "nextjs",
+                "main": true,
+                "startlearningdate": "",
+                "tip": "",
+                "icon": "../../public/assets/next.png",
+                "projectsnumber": 0,
+                "about": ""
+            },
+             {
+                "name": "SQL",
+                "startlearningdate": "February",
+                "main": true,
+                "tip": "Database",
+                "icon": "../../public/assets/sql.png",
+                "projectsnumber": 0,
+                "about": ""
+            },
+            {
+                "name": "Styled Components",
+                "main": false,
+                "icon": "../../public/assets/react.png",
+                "startlearningdate": "March",
+                "tip": "Css Framework",
+                "projectsnumber": 5,
+                "about": ""
+            },
+            {
+                "name": "Chakra UI",
+                "main": false,
+                "icon": "../../public/assets/typescript.png",
+                "startlearningdate": "March",
+                "tip": "Css Framework",
+                "projectsnumber": 3,
+                "about": ""
+            },
+            {
+                "name": "Taiwlind",
+                "main": false,
+                "icon": "../../public/assets/typescript.png",
+                "startlearningdate": "February",
+                "tip": "Css Framework",
+                "projectsnumber": 4,
+                "about": ""
+            },
+            {
+                "name": "css",
+                "startlearningdate": "",
+                "main": false,
+                "icon": "../../public/assets/react.png",
+                "tip": "",
+                "projectsnumber": 0,
+                "about": ""
+            },
+            {
+                "name": "html",
+                "main": false,
+                "icon": "../../public/assets/react.png",
+                "startlearningdate": "",
+                "tip": "",
+                "projectsnumber": 0,
+                "about": ""
+            },
+            {
+                "name": "Git",
+                "main": false,
+                "icon": "../../public/assets/react.png",
+                "startlearningdate": "January",
+                "tip": "version control system",
+                "projectsnumber": 0,
+                "about": ""
+            },
+            {
+                "name": "linux",
+                "main": false,
+                "startlearningdate": "",
+                "tip": "",
+                "projectsnumber": 0,
+                "icon": "../../public/assets/typescript.png",
+                "about": ""
+            },
+            {
+                "name": "redux",
+                "main": false,
+                "startlearningdate": "",
+                "icon": "../../public/assets/typescript.png",
+                "tip": "",
+                "projectsnumber": 0,
+                "about": ""
+            },
+            {
+                "name": "scss",
+                "main": false,
+                "startlearningdate": "",
+                "tip": "",
+                "icon": "../../public/assets/react.png",
+                "projectsnumber": 0,
+                "about": ""
+            },
+            {
+                "name": "python",
+                "main": false,
+                "startlearningdate": "",
+                "tip": "",
+                "icon": "../../public/assets/react.png",
+                "projectsnumber": 0,
+                "about": ""
+            },
+            {
+                "name": "figma",
+                "main": false,
+                "startlearningdate": "",
+                "icon": "../../public/assets/typescript.png",
+                "tip": "",
+                "projectsnumber": 0,
+                "about": ""
+            },
+            {
+                "name": "Postman",
+                "main": false,
+                "startlearningdate": "February",
+                "icon": "../../public/assets/typescript.png",
+                "tip": "API platform",
+                "projectsnumber": 0,
+                "about": ""
+            }
+    ]
+
+}
