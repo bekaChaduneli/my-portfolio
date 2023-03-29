@@ -217,17 +217,18 @@ export default function Skills(props: any) {
                           zIndex={"10"}
                           src="../../assets/monitor.png"
                           position={"absolute"}
-                          w={{ md: "500px", xl: "780px" }}
+                          mt={{ sm: "0px", xl: "5px" }}
+                          w={{ md: "500px", xl: "730px" }}
                         />
                         <Image
                           zIndex={"0"}
                           position={"absolute"}
                           src={e.image}
-                          w={{ md: "380px", xl: "580px" }}
+                          w={{ md: "380px", xl: "550px" }}
                           marginLeft={{ md: "60px", xl: "95px" }}
                           marginTop={{ md: "20px", xl: "40px" }}
                           objectFit={"cover"}
-                          h={{ md: "245px", xl: "328px" }}
+                          h={{ md: "245px", xl: "338px" }}
                         />
                       </Box>
 

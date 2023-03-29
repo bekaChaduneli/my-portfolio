@@ -14,7 +14,7 @@
 
 ### Links
 
-- Live Site URL: [Live site](https://3d-portfolio-liard.vercel.app/)
+- Live Site URL: [Live site](https://my-portfolio-pink-pi.vercel.app/)
 - Solution URL: [Solution URL](https://github.com/bekaChaduneli/my-portfolio)
 
 ### Built with
