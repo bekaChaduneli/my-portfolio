@@ -13,8 +13,8 @@ export default function Header(props: any) {
       init(textRef.current, {
         showCursor: false,
         loop: true,
-        typeSpeed: 0.2,
-        backSpeed: 0.2,
+        typeSpeed: 3,
+        backSpeed: 3,
         strings: [
           "React",
           "Typescript",
