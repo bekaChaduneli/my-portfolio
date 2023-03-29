@@ -3,17 +3,6 @@ import gsap from "gsap";
 import React, { useEffect, useRef } from "react";
 
 export default function Skill() {
-  let line1 = useRef();
-  useEffect(() => {
-    gsap.from([line1], 0.8, {
-      delay: 0.8,
-      ease: "power3.out",
-      y: 164,
-      stagger: {
-        amount: 0.15,
-      },
-    });
-  }, [line1]);
   return (
     <Flex
       boxShadow={"md"}
@@ -34,11 +23,9 @@ export default function Skill() {
         </Text> */}
         <h1>
           <Box overflow={"hidden"} height={"156px"}>
-            <Box ref={(el) => (line1 = el)}>
-              <Text color={"brand.100"} fontSize={"52px"} fontWeight={"900"}>
-                Will Be Soon
-              </Text>
-            </Box>
+            <Text color={"brand.100"} fontSize={"52px"} fontWeight={"900"}>
+              Will Be Soon
+            </Text>
           </Box>
         </h1>
       </Flex>

@@ -6,7 +6,7 @@ import { init } from "ityped";
 
 export default function Header(props: any) {
   const firstRender = useRef(true);
-  const textRef = useRef();
+  const textRef: any = useRef();
 
   useEffect(() => {
     if (firstRender.current) {
