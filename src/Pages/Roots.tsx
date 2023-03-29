@@ -36,9 +36,9 @@ export default function Roots() {
           h={"40px"}
           w="260px"
         >
-          {/* <Box w={{ sm: "39px", md: "45px", xl: "50px" }}>
+          <Box w={{ sm: "39px", md: "45px", xl: "50px" }}>
             <MainLogo />
-          </Box> */}
+          </Box>
           <Text
             fontSize={{ sm: "12px", md: "17px", xl: "24px" }}
             fontWeight={"900"}

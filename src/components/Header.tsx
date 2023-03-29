@@ -3,7 +3,7 @@ import { useEffect, useState, useRef } from "react";
 import { Link } from "react-router-dom";
 import MainLogo from "./MainLogo";
 import { init } from "ityped";
-
+import cv from "../../public/resume.pdf";
 export default function Header(props: any) {
   const firstRender = useRef(true);
   const textRef: any = useRef();
@@ -120,20 +120,22 @@ export default function Header(props: any) {
               mt={{ sm: "65px", md: "55px", lg: "100px", xl: "20px" }}
               gap={{ sm: "32px", md: "48px", xl: "64px" }}
             >
-              <Button
-                colorScheme="none"
-                variant="solid"
-                w={"100%"}
-                h={{ sm: "50px", md: "55px", lg: "70px", xl: "50px" }}
-                border={"4px"}
-                borderRadius={{ sm: "6px", md: "10px", xl: "16px" }}
-                fontSize={{ sm: "12px", md: "16px", lg: "24px", xl: "19px" }}
-                bg="brand.300"
-              >
-                <Text fontWeight={"900"} mt={"5px"}>
-                  DOWNLOAD CV
-                </Text>
-              </Button>
+              <a href={cv}>
+                <Button
+                  colorScheme="none"
+                  variant="solid"
+                  w={"100%"}
+                  h={{ sm: "50px", md: "55px", lg: "70px", xl: "50px" }}
+                  border={"4px"}
+                  borderRadius={{ sm: "6px", md: "10px", xl: "16px" }}
+                  fontSize={{ sm: "12px", md: "16px", lg: "24px", xl: "19px" }}
+                  bg="brand.300"
+                >
+                  <Text fontWeight={"900"} mt={"5px"}>
+                    DOWNLOAD CV
+                  </Text>
+                </Button>
+              </a>
               <Box w={"100%"}>
                 <Link to="about">
                   <Button

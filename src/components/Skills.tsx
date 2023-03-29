@@ -215,7 +215,7 @@ export default function Skills(props: any) {
                       >
                         <Image
                           zIndex={"10"}
-                          src="../../public/assets/monitor.png"
+                          src="../../assets/monitor.png"
                           position={"absolute"}
                           w={{ md: "500px", xl: "780px" }}
                         />
