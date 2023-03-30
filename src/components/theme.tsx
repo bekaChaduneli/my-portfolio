@@ -9,6 +9,9 @@ export const theme = extendTheme({
       100: "#000000",
       200: "#ffffff",
       300: "#ffc400",
+      400: "#f7f1e56c",
+      500: "#f7f1e5b2",
+      600: "#ece5d450",
     },
   },
   breakpoints: {

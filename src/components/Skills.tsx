@@ -18,6 +18,7 @@ import {
 import { useState } from "react";
 import monitor from "../../public/assets/monitor.png";
 import { Link } from "react-router-dom";
+import { ChevronDownIcon } from "@chakra-ui/icons";
 
 export default function Skills(props: any) {
   const [selectedProject, setSelectedProject] = useState("Entertaiment app");
@@ -27,18 +28,24 @@ export default function Skills(props: any) {
       w={"100%"}
       alignItems={"center"}
       justifyContent={"center"}
-      mb={"7em"}
+      mb={{ sm: "75px", md: "7em" }}
     >
       <Flex
         justifyContent={"center"}
         alignItems={"center"}
+        mb={{ sm: "-100px", md: "0px" }}
         mt={{ sm: "60px", md: "80px", xl: "100px" }}
         w={"100%"}
       >
         <Box zIndex="99" flexDir="column" display={{ sm: "flex", md: "none" }}>
           <Flex w="100%" justifyContent="center">
             <Menu>
-              <MenuButton<any> w="300px" bg="brand.300" as={Button}>
+              <MenuButton<any>
+                rightIcon={<ChevronDownIcon />}
+                w="300px"
+                bg="brand.300"
+                as={Button}
+              >
                 Main Projects
               </MenuButton>
               <MenuList>
@@ -90,6 +97,7 @@ export default function Skills(props: any) {
                       alignItems="center"
                       flexDir="column"
                       w="100%"
+                      bg="brand.200"
                       h="400px"
                       mt="210px"
                     >
@@ -348,10 +356,11 @@ export default function Skills(props: any) {
           </TabPanels>
         </Tabs>
       </Flex>
-      <Box mt={{ sm: "-115px", md: "44px", xl: "0px" }}>
+      <Box mt={{ sm: "0px", md: "44px", xl: "0px" }}>
         <Link to="projects">
           <Button
             colorScheme="none"
+            zIndex="1000"
             w={"240px"}
             h={"50px"}
             variant="solid"

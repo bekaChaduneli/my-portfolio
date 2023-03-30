@@ -9,6 +9,7 @@ export default function Footer() {
   return (
     <Flex
       boxShadow={"md"}
+      mt={{ sm: "-70px", md: "3px" }}
       justifyContent={"space-between"}
       paddingLeft={{ sm: "20px", md: "40px", lg: "200px" }}
       paddingRight={{ sm: "20px", md: "40px", lg: "200px" }}

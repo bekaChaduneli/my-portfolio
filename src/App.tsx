@@ -4,7 +4,6 @@ import {
   Route,
   RouterProvider,
 } from "react-router-dom";
-import data from "../data.json";
 import About from "./Pages/About";
 import Main from "./Pages/Main";
 import Projects from "./Pages/Projects";

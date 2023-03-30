@@ -234,10 +234,11 @@ export default function Contact() {
             </form>
           </Box>
           <Flex
-            mt={{ sm: "20px", md: "30px", lg: "0px" }}
+            mt={{ sm: "5px", md: "30px", lg: "0px" }}
             alignItems={"center"}
             h={{ sm: "200px", md: "230px", lg: "550px" }}
             maxWidth={"350px"}
+            mb={{ sm: "-40px", md: "0px" }}
           >
             <MailBoxLogo />
           </Flex>
