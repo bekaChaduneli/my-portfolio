@@ -11,13 +11,20 @@ import {
   Text,
   useDisclosure,
 } from "@chakra-ui/react";
+import style from "../scroll.css";
 import { Link, Outlet } from "react-router-dom";
 import avatarImage from "../../public/assets/mobileAvatar.png";
 import Footer from "../components/Footer";
 import MainLogo from "../components/MainLogo";
-
+import { motion, useScroll, useSpring } from "framer-motion";
 export default function Roots() {
   const { isOpen, onOpen, onClose } = useDisclosure();
+  const { scrollYProgress } = useScroll();
+  const scaleX = useSpring(scrollYProgress, {
+    stiffness: 100,
+    damping: 30,
+    restDelta: 0.001,
+  });
   return (
     <Box fontWeight={"900"} color={"brand.200"}>
       <Flex
@@ -112,6 +119,19 @@ export default function Roots() {
           </DrawerBody>
         </DrawerContent>
       </Drawer>
+      {/* <motion.div
+        className="progress-bar"
+        style={{
+          scaleX,
+          position: "fixed",
+          top: 0,
+          left: 0,
+          right: 0,
+          height: "10px",
+          background: "black",
+          transformOrigin: "0%",
+        }}
+      /> */}
       <Outlet />
       <Footer />
     </Box>

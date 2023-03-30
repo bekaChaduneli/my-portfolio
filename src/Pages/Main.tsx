@@ -9,11 +9,13 @@ import Footer from "../components/Footer";
 import data from "../../data.json";
 export default function Main(props: any) {
   return (
-    <Box overflow={"hidden"}>
-      <Header data={data} />
-      <Skills data={data} />
-      <Languages data={data} />
-      <Contact />
-    </Box>
+    <>
+      <Box overflow={"hidden"}>
+        <Header data={data} />
+        <Skills data={data} />
+        <Languages data={data} />
+        <Contact />
+      </Box>
+    </>
   );
 }
