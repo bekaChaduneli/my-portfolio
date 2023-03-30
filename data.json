@@ -645,7 +645,7 @@
                 "icon": "../../assets/chakraui.png",
                 "startlearningdate": "March",
                 "tip": "Css Framework",
-                "projectsnumber": 3,
+                "projectsnumber": 4,
                 "about": ""
             },
             {
@@ -663,7 +663,7 @@
                 "main": false,
                 "icon": "../../assets/css.png",
                 "tip": "",
-                "projectsnumber": 0,
+                "projectsnumber": 16,
                 "about": ""
             },
             {
@@ -672,7 +672,7 @@
                 "icon": "../../assets/html.png",
                 "startlearningdate": "",
                 "tip": "",
-                "projectsnumber": 0,
+                "projectsnumber": 28,
                 "about": ""
             },
             {
@@ -708,7 +708,7 @@
                 "startlearningdate": "",
                 "tip": "",
                 "icon": "../../assets/scss.png",
-                "projectsnumber": 0,
+                "projectsnumber": 1,
                 "about": ""
             },
             {
@@ -726,7 +726,7 @@
                 "startlearningdate": "",
                 "icon": "../../assets/figma.png",
                 "tip": "",
-                "projectsnumber": 0,
+                "projectsnumber": 28,
                 "about": ""
             },
             {
