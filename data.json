@@ -51,6 +51,25 @@
       ],
 
       "projects": [
+        {
+            "name": "IMBd Clone",
+            "best": true,
+            "display": false,
+            "react": false,
+            "three": false,
+            "typescript": true,
+            "markup": false,
+            "javascript": false,
+            "styledcomponents": true,
+            "chakraui":false,
+            "tailwind":true,
+            "date": " Apr",
+            "image": "../../assets/imdb.png",
+            "tools": ["../../assets/next.png", "../../assets/tailwind.png"],
+            "github": "https://github.com/bekaChaduneli/imdb-clone",
+            "live": "https://imdb-clone-self.vercel.app/",
+            "about": "The main goal of the project was to get experience working with NextJS"
+        },
           {
               "name": "Entertaiment app",
               "best": true,
@@ -167,7 +186,7 @@
           },
           {
               "name": "Metaversus app",
-              "best": true,
+              "best": false,
               "display": false,
               "date": " Mar",
               "react": true,
@@ -576,13 +595,22 @@
                 "projectsnumber": 11,
                 "about": ""
             },
+            {
+                "name": "nextjs",
+                "main": true,
+                "startlearningdate": "",
+                "tip": "",
+                "icon": "../../assets/next.png",
+                "projectsnumber": 1,
+                "about": ""
+            },
              {
                 "name": "Typescript",
                 "main": true,
                 "startlearningdate": "March",
                 "icon": "../../assets/typescript.png",
                 "tip": "Javascript superset",
-                "projectsnumber": 6,
+                "projectsnumber": 7,
                 "about": ""
             },
             {
@@ -600,7 +628,7 @@
                 "icon": "../../assets/threejs.png",
                 "startlearningdate": "21 March",
                 "tip": "JavaScript framework",
-                "projectsnumber": 1,
+                "projectsnumber": 2,
                 "about": ""
             },
              {
@@ -610,15 +638,6 @@
                 "icon": "../../assets/javascript.png",
                 "tip": "Programming language",
                 "projectsnumber": 13,
-                "about": ""
-            },
-            {
-                "name": "nextjs",
-                "main": true,
-                "startlearningdate": "",
-                "tip": "",
-                "icon": "../../assets/next.png",
-                "projectsnumber": 0,
                 "about": ""
             },
              {
@@ -645,7 +664,7 @@
                 "icon": "../../assets/chakraui.png",
                 "startlearningdate": "March",
                 "tip": "Css Framework",
-                "projectsnumber": 4,
+                "projectsnumber": 3,
                 "about": ""
             },
             {
@@ -654,7 +673,7 @@
                 "icon": "../../assets/tailwind.png",
                 "startlearningdate": "February",
                 "tip": "Css Framework",
-                "projectsnumber": 4,
+                "projectsnumber": 5,
                 "about": ""
             },
             {
@@ -672,7 +691,7 @@
                 "icon": "../../assets/html.png",
                 "startlearningdate": "",
                 "tip": "",
-                "projectsnumber": 28,
+                "projectsnumber": 29,
                 "about": ""
             },
             {
@@ -726,7 +745,7 @@
                 "startlearningdate": "",
                 "icon": "../../assets/figma.png",
                 "tip": "",
-                "projectsnumber": 28,
+                "projectsnumber": 27,
                 "about": ""
             },
             {

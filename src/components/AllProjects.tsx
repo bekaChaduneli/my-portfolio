@@ -33,7 +33,7 @@ function AllProjects(props: any) {
       <Flex
         mb={{ sm: "130px", md: "50px", lg: "70px", xl: "120px" }}
         mt={{ sm: "25px", md: "35px", lg: "45px", xl: "60px" }}
-        w="75%"
+        w={{ sm: "90%", md: "85%", xl: "75%" }}
         gap={{ sm: "20px", md: "30px", lg: "40px", xl: "50px" }}
         flexWrap="wrap"
       >
@@ -81,21 +81,26 @@ function AllProjects(props: any) {
                       xl: "15px",
                     }}
                     minW={{
-                      sm: "130px",
+                      sm: "100%",
                       md: "265px",
                       lg: "360px",
                       xl: "430px",
                     }}
-                    minH={{ sm: "70px", md: "170px", lg: "210px", xl: "260px" }}
+                    minH={{
+                      sm: "160px",
+                      md: "170px",
+                      lg: "210px",
+                      xl: "260px",
+                    }}
                     fontWeight="400"
                     boxShadow="sm"
                   >
                     <Text color="black"></Text>
                     <Image
                       objectFit={"cover"}
-                      w={{ sm: "130px", md: "265px", lg: "360px", xl: "430px" }}
+                      w={{ sm: "330px", md: "265px", lg: "360px", xl: "430px" }}
                       boxShadow="inner"
-                      h={{ sm: "70px", md: "170px", lg: "210px", xl: "260px" }}
+                      h={{ sm: "160px", md: "170px", lg: "210px", xl: "260px" }}
                       borderRadius={{
                         sm: "4px",
                         md: "10px",
@@ -108,13 +113,13 @@ function AllProjects(props: any) {
                       <>
                         <Box
                           w={{
-                            sm: "130px",
+                            sm: "330px",
                             md: "265px",
                             lg: "360px",
                             xl: "430px",
                           }}
                           h={{
-                            sm: "70px",
+                            sm: "160px",
                             md: "170px",
                             lg: "210px",
                             xl: "260px",
@@ -139,13 +144,13 @@ function AllProjects(props: any) {
                           }}
                           display="flex"
                           w={{
-                            sm: "130px",
+                            sm: "330px",
                             md: "265px",
                             lg: "360px",
                             xl: "430px",
                           }}
                           h={{
-                            sm: "70px",
+                            sm: "160px",
                             md: "170px",
                             lg: "210px",
                             xl: "260px",
@@ -159,7 +164,7 @@ function AllProjects(props: any) {
                             mt="0px"
                             fontWeight="900"
                             fontSize={{
-                              sm: "9px",
+                              sm: "22px",
                               md: "16px",
                               lg: "19px",
                               xl: "23px",
@@ -190,7 +195,7 @@ function AllProjects(props: any) {
                                 <Box
                                   display={"flex"}
                                   maxW={{
-                                    sm: "13px",
+                                    sm: "25px",
                                     md: "28px",
                                     lg: "20px",
                                     xl: "30px",
@@ -224,7 +229,7 @@ function AllProjects(props: any) {
                               borderRadius={"3px"}
                               display={"flex"}
                               fontSize={{
-                                sm: "5px",
+                                sm: "12px",
                                 md: "8px",
                                 lg: "10px",
                                 xl: "12px",
@@ -233,7 +238,7 @@ function AllProjects(props: any) {
                               justifyContent={"center"}
                               w={"100%"}
                               h={{
-                                sm: "12px",
+                                sm: "25px",
                                 md: "20px",
                                 lg: "25px",
                                 xl: "30px",
@@ -250,13 +255,13 @@ function AllProjects(props: any) {
                               alignItems={"center"}
                               justifyContent={"center"}
                               fontSize={{
-                                sm: "5px",
+                                sm: "12px",
                                 md: "8px",
                                 lg: "10px",
                                 xl: "12px",
                               }}
                               h={{
-                                sm: "12px",
+                                sm: "25px",
                                 md: "20px",
                                 lg: "25px",
                                 xl: "30px",
