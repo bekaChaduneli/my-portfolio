@@ -203,6 +203,25 @@
               "about": "The main goal of the project was to get experience working with framer motion"
           },
           {
+            "name": "company project",
+            "best": false,
+            "display": false,
+            "date": " Apr",
+            "react": true,
+            "typescript": false,
+            "javascript": false,
+            "three":false,
+            "markup": false,
+            "styledcomponents": false,
+            "chakraui":false,
+            "tailwind":true,
+            "image": "../../assets/work-project.png",
+            "tools": [ "../../assets/react.png", "../../assets/tailwind.png"],
+            "github": "https://github.com/bekaChaduneli/artmedia-project",
+            "live": "https://artmedia-project-phi.vercel.app/",
+            "about": "The main goal of this project was to get experience with SwipperJS, UseForm, and other tools.            "
+        },
+          {
               "name": "Interactive card details",
               "best": false,
               "display": false,
@@ -592,7 +611,7 @@
                 "startlearningdate": "20 February",
                 "icon": "../../assets/react.png",
                 "tip": "Javascript framework",
-                "projectsnumber": 11,
+                "projectsnumber": 12,
                 "about": ""
             },
             {
@@ -673,7 +692,7 @@
                 "icon": "../../assets/tailwind.png",
                 "startlearningdate": "February",
                 "tip": "Css Framework",
-                "projectsnumber": 5,
+                "projectsnumber": 6,
                 "about": ""
             },
             {

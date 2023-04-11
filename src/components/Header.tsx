@@ -146,28 +146,28 @@ export default function Header(props: any) {
               </Box>
 
               <Box w={"100%"}>
-                <Link to="about">
-                  <Button
-                    colorScheme="none"
-                    w={"100%"}
-                    h={{ sm: "50px", md: "55px", lg: "70px", xl: "50px" }}
-                    variant="solid"
-                    backgroundColor={"brand.100"}
-                    color={"brand.300"}
-                    borderRadius={{ sm: "6px", md: "10px", xl: "16px" }}
-                    fontSize={{
-                      sm: "12px",
-                      md: "16px",
-                      lg: "24px",
-                      xl: "19px",
-                    }}
-                    alignItems={"center"}
-                  >
-                    <Text fontWeight={"900"} mt={"5px"}>
-                      ABOUT ME
-                    </Text>
-                  </Button>
-                </Link>
+                {/* <Link to="about"> */}
+                <Button
+                  colorScheme="none"
+                  w={"100%"}
+                  h={{ sm: "50px", md: "55px", lg: "70px", xl: "50px" }}
+                  variant="solid"
+                  backgroundColor={"brand.100"}
+                  color={"brand.300"}
+                  borderRadius={{ sm: "6px", md: "10px", xl: "16px" }}
+                  fontSize={{
+                    sm: "12px",
+                    md: "16px",
+                    lg: "24px",
+                    xl: "19px",
+                  }}
+                  alignItems={"center"}
+                >
+                  <Text fontWeight={"900"} mt={"5px"}>
+                    ABOUT ME
+                  </Text>
+                </Button>
+                {/* </Link> */}
               </Box>
             </Flex>
           </Box>
