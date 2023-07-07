@@ -1,9 +1,4 @@
-import {
-  createBrowserRouter,
-  createRoutesFromElements,
-  Route,
-  RouterProvider,
-} from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import About from "./Pages/About";
 import Main from "./Pages/Main";
 import Projects from "./Pages/Projects";
@@ -11,22 +6,17 @@ import Roots from "./Pages/Roots";
 import Skill from "./Pages/Skill";
 
 function App() {
-  const router = createBrowserRouter(
-    createRoutesFromElements(
-      <>
+  return (
+    <BrowserRouter>
+      <Routes>
         <Route path="/" element={<Roots />}>
           <Route index element={<Main />} />
           <Route path="about" element={<About />} />
           <Route path="projects" element={<Projects />} />
           <Route path="skill" element={<Skill />} />
         </Route>
-      </>
-    )
-  );
-  return (
-    <>
-      <RouterProvider router={router} />
-    </>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

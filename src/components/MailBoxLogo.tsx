@@ -6,14 +6,14 @@ import CanvasLoader from "./Loader";
 import { MailBox } from "./Mailbox";
 
 export default function MailBoxLogo() {
-  return (
-    <Canvas>
-      <Suspense fallback={<CanvasLoader />}>
-        <Stage environment="night" intensity={1}>
-          <MailBox />
-        </Stage>
-        <OrbitControls enableZoom={false} />
-      </Suspense>
-    </Canvas>
-  );
+    return (
+        <Canvas>
+            <Suspense fallback={<CanvasLoader />}>
+                <Stage environment="night" intensity={1}>
+                    <MailBox />
+                </Stage>
+                <OrbitControls enableZoom={false} />
+            </Suspense>
+        </Canvas>
+    );
 }
